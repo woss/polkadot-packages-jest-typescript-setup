@@ -1,5 +1,12 @@
-# polkadot-packages-jest-test-setup
+# polkadot-packages-jest-typescript-setup
 
-Repo where to test new releases of polkadot api, util, and other pacakges.
+Currently this setup works for the:
 
-All tests must pass and make sure that there are no breaking changes.
+- Polkadot api `4.10.1`
+- jest `27.0.0-next.9`
+- ts-jest `27.0.0-next.12`
+- pnpm
+
+This intentionally uses pnpm because i use it in the other project and need a place to test. So All PRs suggestions and improvements are welcome.
+
+I hope this repo becomes good place for the ref on how to setup polkadot api and utils after they decide to change stuff again. 🙂
