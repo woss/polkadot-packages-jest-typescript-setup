@@ -1,0 +1,30 @@
+{
+  "name": "polkadot-api-test-fail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
+    "lint": "eslint --fix --ext .js,.cjs,.mjs,.ts,.tx .",
+    "lint:fix": "prettier --config .prettierrc './**/*.{ts,cjs,js}' --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "babel-jest": "27.0.0-next.9",
+    "eslint": "^7.26.0",
+    "jest": "27.0.0-next.9",
+    "jest-cli": "27.0.0-next.9",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.0",
+    "ts-jest": "27.0.0-next.12",
+    "ts-node": "^9.1.1",
+    "typescript": "4.2.4"
+  }
+}

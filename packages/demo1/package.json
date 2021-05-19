@@ -1,0 +1,13 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "4.10.1",
+    "@polkadot/util": "6.4.1"
+  }
+}
