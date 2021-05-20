@@ -4,8 +4,8 @@
  */
 
 export default {
-  // coverageDirectory: 'coverage',
-  // coverageProvider: 'v8',
+  coverageDirectory: 'coverage',
+  coverageProvider: 'v8',
   testEnvironment: 'node',
   preset: 'ts-jest/presets/default-esm', // or other ESM presets
   globals: {

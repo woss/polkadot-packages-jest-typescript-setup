@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
+    "test:withScript": "./scripts/run-test.js --detectOpenHandles",
     "lint": "eslint --fix --ext .js,.cjs,.mjs,.ts,.tx .",
     "lint:fix": "prettier --config .prettierrc './**/*.{ts,cjs,js}' --write"
   },

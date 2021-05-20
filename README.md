@@ -28,3 +28,9 @@ pnpm test
 pnpx jest --clearCache && pnpm test
 
 ```
+
+## Failing tests when using the script
+
+This is related to the Github issue https://github.com/polkadot-js/api/issues/3430
+
+to see this in action run `pnpm test:withScript`
